@@ -1,0 +1,9 @@
+.myTable{
+    background-color: #ebebeb;
+    border-radius: 8px;
+    box-shadow: 0 0 0.8em rgba(255, 255, 255, 0.5);
+}
+
+div h5 {
+    color: white;
+}

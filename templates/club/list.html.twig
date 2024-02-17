@@ -33,7 +33,8 @@
         <td>{{ item.date_debut }}</td>
         <td>{{ item.date_fin }}</td>
         <td>{{ item.nb_participants }}</td>
-        <td><a href="{{ path('app_club_details' , {'nom':item.Titre}) }}" class="btn btn-primary">Participer</a></td>
+        <td><a href="{{ path('app_club_details' , {'nom':item.Titre}) }}" class="btn btn-primary">Details</a>
+        <a href="{{ path('app_student_register') }}" class="btn btn-primary">Join</a></td>
     </tr>
     {% endfor %}
 
